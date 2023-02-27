@@ -1,0 +1,7 @@
+bricks:
+  qonblok_bloc:
+    path: ./bloc
+  qonblok_usecase:
+    path: ./usecase
+  qonblok_testbloc:
+    path: ./testbloc

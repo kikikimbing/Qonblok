@@ -1,0 +1,18 @@
+name: qonblok_bloc
+description: Generate a new Bloc in Dart. Built for the bloc state management library.
+version: 0.1.0
+
+environment:
+  mason: ">=0.1.0-dev.47 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: The name of the bloc class.
+    default: counter
+    prompt: What is the bloc name?
+  usecase:
+    type: string
+    description: Usecase used in this bloc.
+    default: DoSomething
+    prompt: What is the Usecase used in this bloc?

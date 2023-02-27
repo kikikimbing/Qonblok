@@ -1,0 +1,5 @@
+.dart_tool
+hooks/build/hooks/pre_gen
+**/pubspec.lock.mason/
+.packages
+pubspec.lock
