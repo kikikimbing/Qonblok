@@ -61,7 +61,7 @@ Run `mason get` for each brick
 ---
 
 ### Usage
-Since this bricks designed specific for Qontak Architecture. No need to pass *--output-dir* or *-o* argument.
+Since this bricks specifically designed for Qontak Architecture. No need to pass *--output-dir* or *-o* argument.
 
 #### qonblok_usecase
 Bricks to generate **Qontak Style** usecase template.
@@ -113,3 +113,4 @@ If you want to removes a brick.\
 
  - Resolve missing import using post_gen hooks
  - Add another template for redundant file format
+ - Add option for generating test file

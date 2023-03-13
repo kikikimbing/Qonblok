@@ -5,3 +5,7 @@ bricks:
     path: ./usecase
   qonblok_testbloc:
     path: ./testbloc
+  qonblok_model:
+    path: ./model
+  qonblok_repo:
+    path: ./repo

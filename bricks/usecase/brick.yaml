@@ -30,4 +30,4 @@ vars:
     type: string
     description: The name of the Params used in this usecase.
     default: Params
-    prompt: Repo used in this usecase?
+    prompt: Params used in this usecase?
