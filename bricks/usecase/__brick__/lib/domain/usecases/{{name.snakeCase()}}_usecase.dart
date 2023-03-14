@@ -5,7 +5,7 @@ import 'package:qontak_core/usecases/usecase.dart';
 class {{name.pascalCase()}}UseCase implements UseCase<{{type.pascalCase()}}, {{params.pascalCase()}}> {
   final {{repo.pascalCase()}}Repository {{repo.camelCase()}}Repository;
 
-  {{name.pascalCase()}}UseCase({
+  const {{name.pascalCase()}}UseCase({
     required this.{{repo.camelCase()}}Repository,
   });
 
