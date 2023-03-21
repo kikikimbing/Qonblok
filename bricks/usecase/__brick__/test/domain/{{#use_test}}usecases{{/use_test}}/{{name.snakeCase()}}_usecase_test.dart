@@ -10,7 +10,7 @@ void main() {
   setUp(() {
     mock{{repo.pascalCase()}}Repository = Mock{{repo.pascalCase()}}Repository();
     {{name.camelCase()}}UseCase =
-        {{name.pascalCase()}}UseCase({{repo.snakeCase()}}Repository: mock{{repo.pascalCase()}}Repository);
+        {{name.pascalCase()}}UseCase({{repo.camelCase()}}Repository: mock{{repo.pascalCase()}}Repository);
   });
 
   group("{{name.pascalCase()}} UseCase", () {
