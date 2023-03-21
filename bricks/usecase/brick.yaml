@@ -31,3 +31,8 @@ vars:
     description: The name of the Params used in this usecase.
     default: Params
     prompt: Params used in this usecase?
+  use_test:
+    type: boolean
+    description: Unit test for the usecase.
+    default: true
+    prompt: Generate unit test for this usecase?
